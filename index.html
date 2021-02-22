@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Homework_10</title>
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="header__menu">
+				<a href="#" class="logo">Uzbeklar.net</a>
+				<nav class="header__nav">
+					<ul class="nav__list">
+						<li><a href="" class="nav__link">Фильмы</a></li>
+						<li><a href="" class="nav__link">Клипы</a></li>
+						<li><a href="" class="nav__link">Музыка</a></li>
+					</ul>
+				</nav>
+				<form class="form" action="#">
+					<div class="form__line">
+						<div class="form__input">
+							<input type="text" class="search" placeholder="Поиск...">
+						</div>
+					</div>
+				</form>
+				<div class="heart">
+					<img src="img/icon_3.svg" alt="">
+				</div>
+				<div class="vector3"></div>
+			</div>
+
+		</header>
+
+		<main class="main">
+			<div class="block">
+				<a href="#input">Вход</a>
+			</div>
+			<h1 id="reg" class="heading">Регистрация</h1>
+			<form class="form__main" action="#">
+				<div class="form__line">
+					<div class="form__input-main">
+						<input name="username" required minlength="3" type="text" class="input" placeholder="Имя*">
+					</div>
+				</div>
+				<div class="form__line">
+					<div class="form__input-main">
+						<input name="surname" required minlength="3" type="text" class="input" placeholder="Фамилия*">
+					</div>
+				</div>
+				<div class="form__line">
+					<div class="form__input-main">
+						<input name="login" required minlength="6" type="text" class="input" placeholder="Логин*">
+					</div>
+				</div>
+				<div class="form__line">
+					<div class="form__input-main">
+						<input name="email" required minlength="6" type="email" class="input" placeholder="EMail*">
+					</div>
+				</div>
+				<div class="form__line">
+					<div class="form__input-main">
+						<input name="password" required minlength="6" type="password" class="input" placeholder="Пароль*">
+					</div>
+				</div>
+				<div class="form__line">
+					<div class="form__input-main">
+						<input name="repeat__password" required minlength="6" type="password" class="input" placeholder="Повторите пароль*">
+					</div>
+				</div>
+				<div class="form__line-radio">
+					<div class="form__input-radio">
+						<div class="radio">
+							<input checked id="male" name="gender" type="radio" class="radio__input">
+							<label class="radio__label" for="male">Мужчина</label>
+						</div>
+					</div>
+					<div class="form__input-radio">
+						<div class="radio">
+							<input id="female" name="gender" type="radio" class="radio__input">
+							<label class="radio__label" for="female">Женщина</label>
+						</div>
+					</div>
+				</div>
+				<div class="form__line-checkbox">
+					<div class="form__input-checkbox">
+						<div class="checkbox">
+							<input required id="terms" name="terms" type="checkbox" class="checkbox__input">
+							<label class="checkbox__label" for="terms">Я согласен с <a href="#">Условия и правила</a></label>
+						</div>
+					</div>
+				</div>
+				<div class="button"><button class="button" type="submit">Регистрация</button></div>
+			</form>
+			<div class="account">
+				<span>У вас есть аккаунт? <a href="#input">Войти</a></span>
+			</div>
+
+			<div class="line"></div>
+
+			<h2 id="input" class="heading">Вход</h2>
+
+			<form class="form__main" action="#">
+				<div class="form__line">
+					<div class="form__input-main">
+						<input name="email" required minlength="6" type="email" class="input" placeholder="Почта*">
+					</div>
+				</div>
+				<div class="form__line">
+					<div class="form__input-main">
+						<input name="password" required minlength="6" type="password" class="input" placeholder="Пароль*">
+					</div>
+				</div>
+				<div class="form__line-checkbox">
+					<div class="form__input-checkbox">
+						<div class="checkbox__remember">
+							<input id="remember" name="remember" type="checkbox" class="checkbox__input">
+							<label class="checkbox__label" for="remember">Запонить меня </label>
+						</div>
+						<a class="input__remember" href="#">Забыли пароль?</a>
+					</div>
+				</div>
+				<div class="button"><button class="button" type="submit">Войти</button></div>
+			</form>
+			<div class="account">
+				<span>У вас нет аккаунта? <a href="#reg">Регистрация</a></span>
+			</div>
+			<div class="line"></div>
+
+			<h2 class="heading">Восстановление пароля</h2>
+			<div class="recovery">Введите Email, на него будет выслан новый пароль</div>
+			<form class="form__main" action="#">
+				<div class="form__line">
+					<div class="form__input-main">
+						<input name="email" required minlength="6" type="email" class="input" placeholder="Почта*">
+					</div>
+				</div>
+				<a href="#input" class="return">Вернуться в форму авторизации</a>
+				<div class="button"><button class="button" type="submit">Отправить</button></div>
+			</form>
+			<div class="text">* Если вы не получили письмо с паролем,
+				проверьте папку Спам.</div>
+				<div class="account">
+					<span>У вас нет аккаунта? <a href="#reg">Регистрация</a></span>
+				</div>
+		</main>
+
+		<footer class="footer">
+
+		</footer>
+
+
+	</body>
+
+</html>
