@@ -113,7 +113,7 @@ textarea {
 	color: #FFFFFF;
 	font-size: 24px;
 line-height: 29px;
-margin: 35px 5% 36px 0px;
+margin: 35px 3% 36px 0px;
 }
 .header__nav{
 	display: inline-block;
@@ -129,7 +129,7 @@ margin: 35px 5% 36px 0px;
 font-size: 18px;
 line-height: 22px;
 text-transform: capitalize;
-margin-right: 26px;
+margin-right: 20px;
 }
 .nav__list li::after{
 	content:"";
